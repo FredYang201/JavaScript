@@ -13,7 +13,7 @@ function LinkedList() {
 
     // 3. Add element in the end
     LinkedList.prototype.append = function(element) {
-        let elementNode = new Node(element)
+        let elementNode = new Node(element);
         // If head is null, then append the new node in the end
         if (!this.head){
             this.head = elementNode;
